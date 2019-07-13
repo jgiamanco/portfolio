@@ -1,7 +1,7 @@
 
 A simple SPA Portfolio built with React.
 ## Preview
-![Preview](https://imggmi.com/full/2019/7/14/ca7b20fcd93e2423d11d20134aeb4b3f-full.png.html)
+![Preview](public\images\preview.png)
 
 ## How to use
 1. Clone/Download the repo.
