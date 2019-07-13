@@ -1,106 +1,131 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
+    "imagebaseurl":"https://jgiamanco.github.io/",
+    "name": "Jacob Giamanco",
+    "role": "Full Stack Web Developer",
+    "linkedinId":"jacob-giamanco",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": " ",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/jacob-giamanco",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/jgiamanco",
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
+          "name":"Twitter",
+          "url":"https://twitter.com/GiamancoJ",
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"Since I was young I have always had a desire to learn, create, and help others. Early computer games like Math Blasters or The Oregon Trail, captivated my interest as a young child and started a love for technology. Now I aim to create websites and apps that may become an inspiration to others.",
+    "address":"San Diego, CA",
+    "website":"https://jgiamanco.github.io/resume",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Grossmont College",
+        "specialization":"Fine Art Photography",
+        "MonthOfPassing":"June",
+        "YearOfPassing":"2013",
+        "Achievements":"Featured Courses: MATH-150 - Intro Comp Program Apps-Math PHIL-130 - Logic CSIS-151D - Intro to Computer Graphics MCOM-110 - Mass Media and Society BUS-144 - Advertising GD-105 - Fundamentals of Digital Media"
       },
-      {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
-      }
+      // {
+      //   "UniversityName":"Udemy: Zero to Mastery",
+      //   "specialization":"Full Stack Web Development",
+      //   "MonthOfPassing":"June",
+      //   "YearOfPassing":"2019",
+      //   "Achievements":""
+      // }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Client Work/Freelance",
+        "specialization":"Full Stack Web Developer",
+        "MonthOfLeaving":"March",
+        "YearOfLeaving":"2019",
+        "Achievements":""
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
+        "CompanyName":"Jacob Dean Photography",
+        "specialization":"Photographer/Videographer",
+        "MonthOfLeaving":"March",
         "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":""
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillname":"JavaScript"
+      },
+      {
+        "skillname":"HTML"
       },
       {
         "skillname":"CSS"
       },
       {
         "skillname":"Reactjs"
+      },
+      {
+        "skillname":"Wordpress"
+      },
+      {
+        "skillname":"Nodejs"
+      },
+      {
+        "skillname":"PostgreSQL"
       }
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Face Detection App",
+        "description":"SPA",
+        "imgurl":"images/project1.png"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Robo Friend",
+        "description":"SPA",
+        "imgurl":"images/project2.png"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"E-Commerce",
+        "description":"Webapp",  
+        "imgurl":"images/project3.png"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"RE CMA",
+        "description":"Webapp",
+        "imgurl":"images/project4.png"
       }
     ],
-    "testimonials":[
+    "gallery":[
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "title":"",
+        "description":"",
+        "imgurl":""
       },
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "title":"",
+        "description":"",
+        "imgurl":""
+      },
+      {
+        "title":"",
+        "description":"",
+        "imgurl":""
+      },
+      {
+        "title":"",
+        "description":"",
+        "imgurl":""
       }
     ]
+
   }
   
   export default resumeData

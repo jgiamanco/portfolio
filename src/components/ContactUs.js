@@ -1,25 +1,25 @@
 import React, { Component } from 'react';
 export default class ContactUs extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    // let resumeData = this.props.resumeData;
     return (
       <section id="contact">
           <div className="row section-head">
             <div className="ten columns">
               <p className="lead">
-              Feel free to contact me for any work or suggestions below
+              Feel free to contact me for any work, collaborations, or to get to know me.
               </p>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
-                <h4>Linked in :
+                <h4>
                   {resumeData.linkedinId}
                 </h4>
               </div>
             </aside>
-          </div>
+          </div> */}
         </section>
         );
   }
