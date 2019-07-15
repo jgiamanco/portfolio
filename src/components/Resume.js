@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
+
+
 export default  class Resume extends Component {
+
   render() {
     let resumeData = this.props.resumeData;
+    let course = (item) => <li>{item}</li>;
     return (
       <section id="resume">
 
@@ -22,7 +26,10 @@ export default  class Resume extends Component {
                           {item.specialization}
                           <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
                           <p>
-                          {item.Achievements}
+                            {item.Achievements}
+                            <ul className="list">
+                              {course(item.courses)}
+                            </ul>
                           </p>
                        </div>
                     </div>
@@ -60,7 +67,7 @@ export default  class Resume extends Component {
          </div>
 
 
-         <div id="skills" className="row skill">
+         {/* <div id="skills" className="row skill">
 
             <div className="three columns header-col">
                <h1><span>Skills</span></h1>
@@ -92,7 +99,7 @@ export default  class Resume extends Component {
 
    			</div>
 
-         </div>
+         </div> */}
 
       </section>
     );

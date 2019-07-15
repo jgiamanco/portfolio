@@ -608,6 +608,7 @@ input[type="checkbox"] { display: inline; }
 .row:before,
 .row:after {
     content: " ";
+    padding-bottom: 24px;
     display: table;
 }
 .row:after {

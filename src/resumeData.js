@@ -31,7 +31,15 @@ let resumeData = {
         "specialization":"Fine Art Photography",
         "MonthOfPassing":"June",
         "YearOfPassing":"2013",
-        "Achievements":"Featured Courses: MATH-150 - Intro Comp Program Apps-Math PHIL-130 - Logic CSIS-151D - Intro to Computer Graphics MCOM-110 - Mass Media and Society BUS-144 - Advertising GD-105 - Fundamentals of Digital Media"
+        "Achievements":"Featured Courses: ",
+        "courses":[
+           "MATH-150 - Intro Comp Program Apps-Math, ",
+           "PHIL-130 - Logic, ",
+           "CSIS-151D - Intro to Computer Graphics, ",
+           "MCOM-110 - Mass Media and Society, ",
+           "BUS-144 - Advertising, ",
+           "GD-105 - Fundamentals of Digital Media"
+        ]
       },
       // {
       //   "UniversityName":"Udemy: Zero to Mastery",
@@ -98,8 +106,8 @@ let resumeData = {
         "imgurl":"images/project3.png"
       },
       {
-        "name":"RE CMA",
-        "description":"Webapp",
+        "name":"CRM Company",
+        "description":"Landing Page",
         "imgurl":"images/project4.png"
       }
     ],

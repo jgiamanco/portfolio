@@ -23,10 +23,10 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">I am {resumeData.name}.</h1>
+               <h1 className="animated animatedFadeInLeft fadeInLeft responsive-headline">I am {resumeData.name}.</h1>
                <hr/>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>A {resumeData.role}.{resumeData.roleDescription}</h3>
-               <ul className="social">
+               <h3 className="animated animatedFadeInUp fadeInUp" style={{color:'#fff', fontFamily:'sans-serif '}}>A {resumeData.role}.{resumeData.roleDescription}</h3>
+               <ul className="animated animatedFadeInUp fadeInUp social">
                   {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
@@ -41,7 +41,7 @@ export default class Header extends Component {
             </div>
          </div>
 
-         <p className="scrolldown">
+         <p className="animated animatedFadeInUp fadeInUp scrolldown">
             <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
          </p>
 

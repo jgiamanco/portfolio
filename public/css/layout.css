@@ -56,6 +56,88 @@ header .banner {
    text-align: center;
 }
 
+/* Annimations */
+
+@keyframes fadeInLeft {
+   from {
+       transform: translate3d(-500px,0,0)
+   }
+
+   to {
+       transform: translate3d(1vw,0,0);
+       opacity: 1
+   }
+}
+
+@-webkit-keyframes fadeInLeft {
+   from {
+       transform: translate3d(-500px,0,0)
+   }
+
+   to {
+       transform: translate3d(1vw,0,0);
+       opacity: 1
+   }
+}
+
+.animated {
+   animation-duration: 1s;
+   animation-fill-mode: both;
+   -webkit-animation-duration: 1s;
+   -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInLeft {
+   opacity: 0
+}
+
+.fadeInLeft {
+   opacity: 0;
+   animation-name: fadeInLeft;
+   -webkit-animation-name: fadeInLeft;
+}
+
+@keyframes fadeInUp {
+   from {
+       transform: translate3d(0,40px,0)
+   }
+
+   to {
+       transform: translate3d(0,0,0);
+       opacity: 1
+   }
+}
+
+@-webkit-keyframes fadeInUp {
+   from {
+       transform: translate3d(0,40px,0)
+   }
+
+   to {
+       transform: translate3d(0,0,0);
+       opacity: 1
+   }
+}
+
+.animated {
+   animation-duration: 1s;
+   animation-fill-mode: both;
+   -webkit-animation-duration: 1s;
+   -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+   opacity: 0
+}
+
+.fadeInUp {
+   opacity: 0;
+   animation-name: fadeInUp;
+   -webkit-animation-name: fadeInUp;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+
 header .banner-text { 
    width: 100%;
    margin-top: 150px; 
@@ -191,6 +273,7 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
 
 #about {
    background: #2B2B2B;
+   height: 85vh;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -240,6 +323,7 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
 
 #resume {
    background: #fff;
+   height: 100vh;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -291,6 +375,12 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+
+#skills {
+   background: #fff;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
 
 .bars {
 	width: 95%;
@@ -433,7 +523,7 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
+   padding-top: 50px;
    padding-bottom: 60px;
 }
 #portfolio h1 {
