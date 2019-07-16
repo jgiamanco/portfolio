@@ -100,13 +100,13 @@ let resumeData = {
         "name":"Robo Friend",
         "description":"SPA",
         "imgurl":"images/project2.png",
-        "link":"https://github.com/jgiamanco/robofriend-app"
+        "link":"https://robo-friendsapp.herokuapp.com/"
       },
       {
         "name":"E-Commerce",
         "description":"Webapp",  
         "imgurl":"images/project3.PNG",
-        "link":"https://github.com/jgiamanco/crwn-clothing"
+        "link":"https://crwn.herokuapp.com/"
       },
       {
         "name":"CRM Company",
