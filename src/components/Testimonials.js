@@ -7,6 +7,7 @@ export default class Testimonials extends Component {
     
     return (
       <section id="testimonials">
+         {/* <img src="..\images\logo-green.png" alt="" className="logo"></img> */}
          {
             resumeData.gallery && resumeData.gallery.map((item)=>{
               return(
