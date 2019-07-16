@@ -93,25 +93,25 @@ let resumeData = {
       {
         "name":"Face Detection App",
         "description":"SPA",
-        "imgurl":"images/project1",
+        "imgurl":"images/project1.png",
         "link": "https://facial-detection-brain.herokuapp.com/"
       },
       {
         "name":"Robo Friend",
         "description":"SPA",
-        "imgurl":"images/project2",
+        "imgurl":"images/project2.png",
         "link":"https://github.com/jgiamanco/robofriend-app"
       },
       {
         "name":"E-Commerce",
         "description":"Webapp",  
-        "imgurl":"images/project3",
+        "imgurl":"images/project3.PNG",
         "link":"https://github.com/jgiamanco/crwn-clothing"
       },
       {
         "name":"CRM Company",
         "description":"Landing Page",
-        "imgurl":"images/project4",
+        "imgurl":"images/project4.png",
         "link":"https://ibb.co/MNVHRv7"
       }
     ],
