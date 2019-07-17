@@ -482,16 +482,12 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
-.css {
+.sass {
   	width: 65%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: sass 2s ease;
+  	-webkit-animation: sass 2s ease;
 }
-.html {
-  	width: 70%;
-  	-moz-animation: html 2s ease;
-  	-webkit-animation: html 2s ease;
-}
+
 .postgresql {
   	width: 50%;
   	-moz-animation: postgresql 2s ease;
@@ -520,14 +516,11 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
   0%   { width: 0px;  }
   100% { width: 35%;  }
 }
-@-moz-keyframes css {
+@-moz-keyframes sass {
   0%   { width: 0px;  }
   100% { width: 65%;  }
 }
-@-moz-keyframes html {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
+
 @-moz-keyframes postgresql {
   0%   { width: 0px;  }
   100% { width: 50%;  }
@@ -545,14 +538,11 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
   0%   { width: 0px;  }
   100% { width: 35%;  }
 }
-@-webkit-keyframes css {
+@-webkit-keyframes sass {
   0%   { width: 0px;  }
   100% { width: 65%;  }
 }
-@-webkit-keyframes html {
-  0%   { width: 0px;  }
-  100% { width: 70%;  }
-}
+
 @-webkit-keyframes postgresql {
   0%   { width: 0px;  }
   100% { width: 50%;  }
