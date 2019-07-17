@@ -593,6 +593,11 @@ div.portfolio-item {
    overflow: hidden;
 }
 
+.works {
+   display: block;
+   color: black;
+}
+
 /* overlay */
 .portfolio-item .item-wrap .overlay {
    position: absolute;

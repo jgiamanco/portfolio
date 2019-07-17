@@ -41,13 +41,6 @@ let resumeData = {
            "GD-105 - Fundamentals of Digital Media"
         ]
       },
-      // {
-      //   "UniversityName":"Udemy: Zero to Mastery",
-      //   "specialization":"Full Stack Web Development",
-      //   "MonthOfPassing":"June",
-      //   "YearOfPassing":"2019",
-      //   "Achievements":""
-      // }
     ],
     "work":[
       {
