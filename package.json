@@ -5,6 +5,7 @@
   "dependencies": {
     "react": "next",
     "react-dom": "next",
+    "react-pdf": "^4.1.0",
     "react-scripts": "2.1.1"
   },
   "scripts": {
