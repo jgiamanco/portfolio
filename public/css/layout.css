@@ -655,6 +655,12 @@ div.portfolio-item {
    margin-bottom: 0;
 }
 
+div#portfolio-wrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
 /* on hover */
 .portfolio-item:hover .overlay {
 	opacity: 1;

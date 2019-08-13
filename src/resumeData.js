@@ -87,10 +87,10 @@ let resumeData = {
         "link": "https://facial-detection-brain.herokuapp.com/"
       },
       {
-        "name":"Robo Friend",
+        "name":"NFL Roster App",
         "description":"SPA",
         "imgurl":"images/project2.png",
-        "link":"https://robo-friendsapp.herokuapp.com/"
+        "link":"https://nfl-rosters.herokuapp.com/"
       },
       {
         "name":"E-Commerce",
