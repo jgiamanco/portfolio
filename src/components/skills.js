@@ -10,26 +10,22 @@ export default  class Skills extends Component {
 
             <div className="row skill">
 
-                <div className="three columns header-col">
+                <div className="two columns header-col">
                 <h1><span>Skills</span></h1>
                 </div>
 
-                <div className="nine columns main-col">
+                <div className="ten columns main-col">
 
                 <p>
                     {resumeData.skillsDescription}
                 </p>
-
-                    <div className="bars">
-
                     <ul className="skills">
                     {
                     resumeData.skills && resumeData.skills.map((item) => {
                         return(
-                        <li>
-                            <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                            </span><em>{item.skillname}</em>
-                        </li>
+                        <div className="skill-flex">
+                            <i className={`devicon-${item.skillname.toLowerCase()} colored large`}></i>
+                        </div>
                         )
                     })
                     }
@@ -39,8 +35,6 @@ export default  class Skills extends Component {
                     </div>
 
                 </div>
-
-            </div>
         </section>
     );
   }

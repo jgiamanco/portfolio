@@ -58,26 +58,51 @@ let resumeData = {
         "Achievements":""
       }
     ],
+    //refer to https://konpa.github.io/devicon/ for skill names
     "skillsDescription":"",
     "skills":[
       {
-        "skillname":"JavaScript"
+        "skillname":"javascript-plain"
       },
       {
-        "skillname":"Sass"
+        "skillname":"react-original-wordmark"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"nodejs-plain-wordmark"
       },
       {
-        "skillname":"Wordpress"
+        "skillname":"sass-original"
       },
       {
-        "skillname":"Nodejs"
+        "skillname":"css3-plain-wordmark"
       },
       {
-        "skillname":"PostgreSQL"
-      }
+        "skillname":"html5-plain-wordmark"
+      },
+      {
+        "skillname":"express-original-wordmark"
+      },
+      {
+        "skillname":"git-plain-wordmark"
+      },
+      {
+        "skillname":"heroku-original-wordmark"
+      },
+      {
+        "skillname":"jquery-plain-wordmark"
+      },
+      {
+        "skillname":"postgresql-plain-wordmark"
+      },
+      {
+        "skillname":"mongodb-plain-wordmark"
+      },
+      {
+        "skillname":"mysql-plain-wordmark"
+      },
+      {
+        "skillname":"amazonwebservices-plain-wordmark"
+      },
     ],
     "portfolio":[
       {

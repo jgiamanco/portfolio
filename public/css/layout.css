@@ -40,6 +40,15 @@ header {
    overflow: hidden;
 }
 
+@media screen and (max-width: 760px) {
+   #about {
+      padding-top: 0px !important;
+   }
+   .skill {
+      padding-top: 0px !important;
+   }
+}
+
 img.logo {
    justify-content: center;
    width: 128px;
@@ -185,7 +194,8 @@ header .banner {
 
 header .banner-text { 
    width: 100%;
-   margin-top: 150px; 
+   margin-top: 90px;
+   margin-bottom: 40px;
 }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
@@ -316,11 +326,11 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
 /* c. About Section
 /* ------------------------------------------------------------------ */
 
+
 #about {
    background: #2B2B2B;
-   height: 85vh;
-   padding-top: 96px;
-   padding-bottom: 66px;
+   width: 100vw;
+   padding-top: 50px;
    overflow: hidden;
 }
 
@@ -427,7 +437,16 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
    overflow: hidden;
 }
 
-.bars {
+ul.skills {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+.skill-flex {
+   padding: 5px 5px;
+}
+/* .bars {
 	width: 95%;
 	float: left;
 	padding: 0;
@@ -549,7 +568,7 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
 }
 @-webkit-keyframes nodejs {
    0%   { width: 0px;  }
-   100% { width: 50%;  }
+   100% { width: 50%;  } */
 }
 
 /* ------------------------------------------------------------------ */
@@ -589,7 +608,6 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
 }
 
 div.portfolio-item {
-   height: 110px;
    overflow: hidden;
 }
 
