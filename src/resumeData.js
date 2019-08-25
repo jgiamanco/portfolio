@@ -129,30 +129,7 @@ let resumeData = {
         "imgurl":"images/project4.png",
         "link":"https://ibb.co/MNVHRv7"
       }
-    ],
-    "gallery":[
-      {
-        "title":"",
-        "description":"",
-        "imgurl":""
-      },
-      {
-        "title":"",
-        "description":"",
-        "imgurl":""
-      },
-      {
-        "title":"",
-        "description":"",
-        "imgurl":""
-      },
-      {
-        "title":"",
-        "description":"",
-        "imgurl":""
-      }
     ]
-
   }
   
   export default resumeData
