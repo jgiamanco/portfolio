@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "next",
+    "react-coverflow": "^0.2.20",
     "react-dom": "next",
     "react-pdf": "^4.1.0",
     "react-scripts": "2.1.1"

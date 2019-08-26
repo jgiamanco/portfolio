@@ -62,97 +62,92 @@ let resumeData = {
     "skillsDescription":"",
     "skills":[
       {
+        "key":"1",
         "skillname":"javascript-plain"
       },
       {
+        "key":"2",
         "skillname":"react-original-wordmark"
       },
       {
+        "key":"3",
         "skillname":"nodejs-plain-wordmark"
       },
       {
+        "key":"4",
         "skillname":"sass-original"
       },
       {
+        "key":"5",
         "skillname":"css3-plain-wordmark"
       },
       {
+        "key":"6",
         "skillname":"html5-plain-wordmark"
       },
       {
+        "key":"7",
         "skillname":"express-original-wordmark"
       },
       {
+        "key":"8",
         "skillname":"git-plain-wordmark"
       },
       {
+        "key":"9",
         "skillname":"heroku-original-wordmark"
       },
       {
+        "key":"10",
         "skillname":"jquery-plain-wordmark"
       },
       {
+        "key":"11",
         "skillname":"postgresql-plain-wordmark"
       },
       {
+        "key":"12",
         "skillname":"mongodb-plain-wordmark"
       },
       {
+        "key":"13",
         "skillname":"mysql-plain-wordmark"
       },
       {
+        "key":"14",
         "skillname":"amazonwebservices-plain-wordmark"
       },
     ],
     "portfolio":[
       {
+        "key":"1",
         "name":"Face Detection App",
         "description":"SPA",
         "imgurl":"images/project1.png",
         "link": "https://facial-detection-brain.herokuapp.com/"
       },
       {
+        "key":"2",
         "name":"NFL Roster App",
         "description":"SPA",
         "imgurl":"images/project2.png",
         "link":"https://nfl-rosters.herokuapp.com/"
       },
       {
-        "name":"E-Commerce",
+        "key":"3",
+        "name":"CRWN Clothing",
         "description":"Webapp",  
         "imgurl":"images/project3.PNG",
         "link":"https://crwn.herokuapp.com/"
       },
       {
-        "name":"CRM Company",
-        "description":"Landing Page",
+        "key":"4",
+        "name":"CryptoClash",
+        "description":"Data fetching Web App",
         "imgurl":"images/project4.png",
-        "link":"https://ibb.co/MNVHRv7"
-      }
-    ],
-    "gallery":[
-      {
-        "title":"",
-        "description":"",
-        "imgurl":""
-      },
-      {
-        "title":"",
-        "description":"",
-        "imgurl":""
-      },
-      {
-        "title":"",
-        "description":"",
-        "imgurl":""
-      },
-      {
-        "title":"",
-        "description":"",
-        "imgurl":""
+        "link":"https://cryptoclash.herokuapp.com"
       }
     ]
-
   }
   
   export default resumeData

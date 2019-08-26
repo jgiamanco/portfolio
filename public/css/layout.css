@@ -329,7 +329,8 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
 
 #about {
    background: #2B2B2B;
-   width: 100vw;
+   width: 92vw;
+   margin: 0 auto;
    padding-top: 50px;
    overflow: hidden;
 }
@@ -585,7 +586,7 @@ ul.skills {
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
-   margin-bottom: 48px;
+   margin-bottom: 10px;
    color: #95A3A3;
 }
 
