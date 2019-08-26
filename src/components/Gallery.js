@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import Coverflow from 'react-coverflow';
 import { StyleRoot } from 'radium';
 
@@ -7,7 +6,6 @@ export default class Gallery extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
-      ReactDOM.render(
         <StyleRoot>
           <Coverflow
             displayQuantityOfSide={2}
@@ -16,27 +14,26 @@ export default class Gallery extends Component {
             enableHeading
             media={{
               '@media (max-width: 900px)': {
-                width: '600px',
-                height: '300px'
+                width: '90vw',
+                height: '100vh',
+                margin: 'o auto 15px auto'
               },
               '@media (min-width: 900px)': {
-                width: '960px',
-                height: '600px'
+                width: '80vw',
+                height: '100vh',
+                margin: '0 auto'
               }
             }}
           >
          {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <img src={`${item.imgurl}`} alt={`${item.namme}`} data-action={`${item.link}`}/>
+                <img src={`${item.imgurl}`} alt={`${item.name}`} data-action={`${item.link}`}/>
               )
             })
           }
           </Coverflow>
         </StyleRoot>
-        ,
-        document.querySelector('.example_2')
-      )
     );
   }
 }

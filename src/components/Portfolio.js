@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import resumeData from '../resumeData';
 import Gallery from './Gallery';
 
 export default class Porfolio extends Component {
@@ -9,8 +10,8 @@ export default class Porfolio extends Component {
       <div className="row">
         <div className="twelve columns collapsed">
           <h1>Check Out Some of My Works.</h1>
-          <div id="portfolio-wrapper" className="s-bgrid-thirds cf">
-            <Gallery />
+          <div id="portfolio" className="s-bgrid-thirds cf">
+            <Gallery resumeData={resumeData} />
           </div>
         </div>
       </div>
