@@ -15,12 +15,12 @@ export default class Gallery extends Component {
             media={{
               '@media (max-width: 900px)': {
                 width: '90vw',
-                height: '100vh',
+                height: '90vh',
                 margin: 'o auto 15px auto'
               },
               '@media (min-width: 900px)': {
                 width: '80vw',
-                height: '100vh',
+                height: '90vh',
                 margin: '0 auto'
               }
             }}

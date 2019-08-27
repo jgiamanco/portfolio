@@ -47,6 +47,72 @@ header {
    .skill {
       padding-top: 0px !important;
    }
+
+   .coverflow__text__39hqd {
+      font-size: .5rem;
+   }
+}
+
+@media screen and (max-width: 1025px) {
+   #coverflow__arrow1__2X2XF .coverflow__arrow__IDi7v.coverflow__left__PhMc6 {
+      left: 5% !important;
+   }
+   
+   #coverflow__arrow1__2X2XF .coverflow__arrow__IDi7v.coverflow__right__1tzAF {
+      right: 5% !important;
+   }
+
+   .coverflow__figure__3bk_C {
+      width: 190px !important;
+   }
+}
+
+@media screen and (max-width: 800px) {
+   #coverflow__arrow1__2X2XF .coverflow__arrow__IDi7v.coverflow__left__PhMc6 {
+      left: 11% !important;
+   }
+   
+   #coverflow__arrow1__2X2XF .coverflow__arrow__IDi7v.coverflow__right__1tzAF {
+      right: 11% !important;
+   }
+
+   .coverflow__figure__3bk_C {
+      width: 185px !important;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   #coverflow__arrow1__2X2XF .coverflow__arrow__IDi7v.coverflow__left__PhMc6 {
+      left: 25% !important;
+   }
+   
+   #coverflow__arrow1__2X2XF .coverflow__arrow__IDi7v.coverflow__right__1tzAF {
+      right: 25% !important;
+   }
+
+   .coverflow__figure__3bk_C {
+      width: 155px !important;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   #coverflow__arrow1__2X2XF .coverflow__arrow__IDi7v.coverflow__left__PhMc6 {
+      left: 32% !important;
+   }
+   
+   #coverflow__arrow1__2X2XF .coverflow__arrow__IDi7v.coverflow__right__1tzAF {
+      right: 32% !important;
+   }
+
+   .coverflow__figure__3bk_C {
+      width: 145px !important;
+   }
+}
+
+@media screen and (min-width: 1200px) {
+   .coverflow__figure__3bk_C {
+      width: 225px !important;
+   }
 }
 
 img.logo {
@@ -453,10 +519,11 @@ ul.skills {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #ebeeee;
+   background: black;
    padding-top: 50px;
    padding-bottom: 60px;
 }
+
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
