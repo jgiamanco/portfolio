@@ -28,7 +28,7 @@ export default class Gallery extends Component {
          {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <img src={`${item.imgurl}`} alt={`${item.name}`} data-action={`${item.link}`}/>
+                <img key={item.key} src={`${item.imgurl}`} alt={`${item.name}`} data-action={`${item.link}`}/>
               )
             })
           }
