@@ -30,7 +30,7 @@ export default class Header extends Component {
                   {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                       return(
-                              <li key={item.name}>
+                              <li key={item.key}>
                                 <a href={item.url} target="blank"><i className={item.className}></i></a>
                               </li>
                             )

@@ -7,16 +7,19 @@ let resumeData = {
     "roleDescription": " ",
     "socialLinks":[
         {
+          "key":"1",
           "name":"linkedin",
           "url":"https://www.linkedin.com/in/jacob-giamanco",
           "className":"fa fa-linkedin"
         },
         {
+          "key":"2",
           "name":"github",
           "url":"https://github.com/jgiamanco",
           "className":"fa fa-github"
         },
         {
+          "key":"3",
           "name":"Twitter",
           "url":"https://twitter.com/GiamancoJ",
           "className":"fa fa-twitter"

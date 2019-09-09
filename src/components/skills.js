@@ -23,7 +23,7 @@ export default  class Skills extends Component {
                     {
                     resumeData.skills && resumeData.skills.map((item) => {
                         return(
-                        <div className="skill-flex">
+                        <div key={item.key} className="skill-flex">
                             <i key={item.key} className={`devicon-${item.skillname.toLowerCase()} colored large`}></i>
                         </div>
                         )
