@@ -134,7 +134,7 @@ let resumeData = {
         "name":"NFL Roster App",
         "description":"SPA",
         "imgurl":"images/project2.png",
-        "link":"https://nfl-rosters.herokuapp.com/"
+        "link":"https://nflrosters.netlify.com"
       },
       {
         "key":"3",
