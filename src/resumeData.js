@@ -127,7 +127,7 @@ let resumeData = {
         "name":"Face Detection App",
         "description":"SPA",
         "imgurl":"images/project1.png",
-        "link": "https://facial-detection-brain.herokuapp.com/"
+        "link": "https://facialdetection.netlify.com"
       },
       {
         "key":"2",
@@ -141,7 +141,7 @@ let resumeData = {
         "name":"CRWN Clothing",
         "description":"Webapp",  
         "imgurl":"images/project3.PNG",
-        "link":"https://crwn.herokuapp.com/"
+        "link":"https://crwnclothingco.netlify.com"
       },
       {
         "key":"4",
