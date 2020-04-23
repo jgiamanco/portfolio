@@ -82,7 +82,7 @@ let resumeData = {
       },
       {
         "key":"5",
-        "skillname":"css4-plain-wordmark"
+        "skillname":"css3-plain-wordmark"
       },
       {
         "key":"6",
