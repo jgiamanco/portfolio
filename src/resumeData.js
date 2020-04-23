@@ -130,7 +130,31 @@ let resumeData = {
       },
       {
         "key":"17",
+        "skillname":"trello-plain-wordmark"
+      },
+      {
+        "key":"18",
         "skillname":"photoshop-line"
+      },
+      {
+        "key":"19",
+        "skillname":"illustrator-line"
+      },
+      {
+        "key":"20",
+        "skillname":"wordpress-plain-wordmark"
+      },
+      {
+        "key":"21",
+        "skillname":"bootstrap-plain-wordmark"
+      },
+      {
+        "key":"22",
+        "skillname":"apache-line-wordmark"
+      },
+      {
+        "key":"23",
+        "skillname":"babel-plain"
       }
     ],
     "portfolio":[
