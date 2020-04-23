@@ -120,6 +120,18 @@ let resumeData = {
         "key":"14",
         "skillname":"amazonwebservices-plain-wordmark"
       },
+      {
+        "key":"15",
+        "skillname":"devicon-ssh-plain-wordmark colored"
+      },
+      {
+        "key":"16",
+        "skillname":"devicon-slack-plain-wordmark colored"
+      },
+      {
+        "key":"17",
+        "skillname":"devicon-photoshop-line colored"
+      }
     ],
     "portfolio":[
       {
