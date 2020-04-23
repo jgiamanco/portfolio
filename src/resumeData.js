@@ -122,15 +122,15 @@ let resumeData = {
       },
       {
         "key":"15",
-        "skillname":"devicon-ssh-plain-wordmark"
+        "skillname":"ssh-plain-wordmark"
       },
       {
         "key":"16",
-        "skillname":"devicon-slack-plain-wordmark"
+        "skillname":"slack-plain-wordmark"
       },
       {
         "key":"17",
-        "skillname":"devicon-photoshop-line"
+        "skillname":"photoshop-line"
       }
     ],
     "portfolio":[
