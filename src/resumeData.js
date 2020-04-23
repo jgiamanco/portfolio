@@ -162,28 +162,28 @@ let resumeData = {
         "key":"1",
         "name":"Face Detection App",
         "description":"SPA",
-        "imgurl":"images/project1.png",
+        "imgurl":"images/project1.webp",
         "link": "https://facialdetection.netlify.com"
       },
       {
         "key":"2",
         "name":"NFL Roster App",
         "description":"SPA",
-        "imgurl":"images/project2.png",
+        "imgurl":"images/project2.webp",
         "link":"https://nflrosters.netlify.com"
       },
       {
         "key":"3",
         "name":"CRWN Clothing",
         "description":"Webapp",  
-        "imgurl":"images/project3.PNG",
+        "imgurl":"images/project3.webp",
         "link":"https://crwnclothingco.netlify.com"
       },
       {
         "key":"4",
         "name":"CryptoClash",
         "description":"Data fetching Web App",
-        "imgurl":"images/project4.png",
+        "imgurl":"images/project4.webp",
         "link":"https://cryptoclash.herokuapp.com"
       }
     ]
