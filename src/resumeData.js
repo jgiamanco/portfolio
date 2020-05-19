@@ -147,14 +147,6 @@ let resumeData = {
       {
         "key":"21",
         "skillname":"bootstrap-plain-wordmark"
-      },
-      {
-        "key":"22",
-        "skillname":"apache-line-wordmark"
-      },
-      {
-        "key":"23",
-        "skillname":"babel-plain"
       }
     ],
     "portfolio":[
