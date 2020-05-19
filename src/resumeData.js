@@ -170,7 +170,7 @@ let resumeData = {
         "name":"NFL Roster App",
         "description":"SPA",
         "imgurl":"images/project2.png",
-        "link":"https://nflrosters.netlify.com"
+        "link":"https://nflrosters.now.sh"
       },
       {
         "key":"3",
@@ -179,12 +179,19 @@ let resumeData = {
         "imgurl":"images/project3.PNG",
         "link":"https://crwnclothingco.netlify.com"
       },
+      // {
+      //   "key":"4",
+      //   "name":"CryptoClash",
+      //   "description":"Data fetching Web App",
+      //   "imgurl":"images/project4.png",
+      //   "link":"https://cryptoclash.herokuapp.com"
+      // }
       {
         "key":"4",
-        "name":"CryptoClash",
-        "description":"Data fetching Web App",
-        "imgurl":"images/project4.png",
-        "link":"https://cryptoclash.herokuapp.com"
+        "name":"The Weather App",
+        "description":"SPA with location based API fetch",  
+        "imgurl":"images/project5.jpg",
+        "link":"https://theweatherapp.now.sh"
       }
     ]
   }
