@@ -33,7 +33,7 @@ export default class About extends Component {
                      {resumeData.address}
                     </span>
                     <br></br>
-                    <a href='https://jgiamanco.github.io/resume/Docs/Giamanco_2020.pdf'>Online Resum&eacute;</a>
+                    <a href='https://jgiamanco.github.io/resume/Docs/Resume5_20.pdf'>Online Resum&eacute;</a>
        					   </p>
                   </div>
                </div>

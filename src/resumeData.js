@@ -27,7 +27,7 @@ let resumeData = {
       ],
     "aboutme":"Since I was young I have always had a desire to learn, create, and help others. Early computer games like Math Blasters or The Oregon Trail, captivated my interest as a young child and started a love for technology. Now I aim to create websites and apps that may become an inspiration to others.",
     "address":"San Diego, CA",
-    "website":"https://jgiamanco.github.io/resume",
+    "website":"https://jgiamanco.now.sh/",
     "education":[
       {
         "UniversityName":"Grossmont College",
