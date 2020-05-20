@@ -162,7 +162,7 @@ let resumeData = {
         "name":"NFL Roster App",
         "description":"SPA",
         "imgurl":"images/project2.png",
-        "link":"https://nflrosters.now.sh"
+        "link":"https://nfl-rosters.now.sh"
       },
       {
         "key":"3",
