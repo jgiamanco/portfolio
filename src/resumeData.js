@@ -180,10 +180,10 @@ let resumeData = {
       // }
       {
         "key":"4",
-        "name":"The Weather App",
-        "description":"SPA with location based API fetch",  
-        "imgurl":"images/project5.jpg",
-        "link":"https://theweatherapp.now.sh"
+        "name":"Weather Lookup",
+        "description":"SPA with location or search based API fetch",  
+        "imgurl":"images/project6.jpg",
+        "link":"https://weatherlookup.now.sh"
       }
     ]
   }
