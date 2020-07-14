@@ -11,6 +11,7 @@ export default class Gallery extends Component {
             displayQuantityOfSide={2}
             navigation
             infiniteScroll
+            enableScroll={false}
             enableHeading
             media={{
               '@media (max-width: 900px)': {
