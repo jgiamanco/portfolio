@@ -9,7 +9,7 @@
     "react-coverflow": "^0.2.20",
     "react-dom": "next",
     "react-pdf": "^4.1.0",
-    "react-scripts": "^3.2.0"
+    "react-scripts": "^3.4.2"
   },
   "scripts": {
     "start": "react-scripts start",
