@@ -1,0 +1,27 @@
+@media (min-width: 1000px) {
+    li div.projectImg {
+        padding: 0 17vw;
+    }
+}
+
+div.projectImg a {
+    background-color: gray;
+    color: white;
+    padding: .5em .75em;
+    position: relative;
+    text-decoration: none;
+    margin: .5rem 1rem;
+}
+
+div.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.alice-carousel__dots {
+    margin: 1rem 3px 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}

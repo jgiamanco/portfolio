@@ -154,22 +154,25 @@ let resumeData = {
         "key":"1",
         "name":"Face Detection App",
         "description":"SPA",
-        "imgurl":"images/project1.png",
-        "link": "https://facialdetection.netlify.com"
+        "imgurl":"images/facialRecogMockup.png",
+        "link": "https://facialdetection.netlify.com",
+        "git": "https://github.com/jgiamanco/face-detection-app"
       },
       {
         "key":"2",
         "name":"NFL Roster App",
         "description":"SPA",
-        "imgurl":"images/project2.png",
-        "link":"https://nfl-rosters.now.sh"
+        "imgurl":"images/rostersMockup.png",
+        "link":"https://nfl-rosters.now.sh",
+        "git": "https://github.com/jgiamanco/nfl-rosters"
       },
       {
         "key":"3",
         "name":"CRWN Clothing",
         "description":"Webapp",  
-        "imgurl":"images/project3.PNG",
-        "link":"https://crwnclothingco.netlify.com"
+        "imgurl":"images/crwnEcommerceMockup.png",
+        "link":"https://crwnclothingco.netlify.com",
+        "git": "https://github.com/jgiamanco/crwn-clothing"
       },
       // {
       //   "key":"4",
@@ -182,8 +185,9 @@ let resumeData = {
         "key":"4",
         "name":"Weather Lookup",
         "description":"SPA with location or search based API fetch",  
-        "imgurl":"images/project6.jpg",
-        "link":"https://weatherlookup.now.sh"
+        "imgurl":"images/weatherMockup.png",
+        "link":"https://weatherlookup.now.sh",
+        "git": "https://github.com/jgiamanco/weather-2.0"
       }
     ]
   }
