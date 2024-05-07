@@ -8,7 +8,7 @@
     "react": "next",
     "react-coverflow": "^0.2.20",
     "react-dom": "next",
-    "react-pdf": "^4.1.0",
+    "react-pdf": "^7.7.3",
     "react-scripts": "^3.4.2"
   },
   "scripts": {
