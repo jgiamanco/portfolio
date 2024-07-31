@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://jgiamanco.netlify.com",
   "dependencies": {
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^5.0.0",
     "react": "next",
     "react-coverflow": "^0.2.20",
     "react-dom": "next",
