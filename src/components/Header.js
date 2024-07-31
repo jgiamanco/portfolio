@@ -16,7 +16,7 @@ export default class Header extends Component {
                <li><a className="smoothscroll" href="#portfolio">Works</a></li>
                <li><a className="smoothscroll" href="#skills">Skills</a></li>
                <li><a className="smoothscroll" href="#about">About</a></li>
-               <li><a href="https://jgiamanco.github.io/resume/Docs/JGFrontendEngineerResumeJuly21.pdf">Resume</a></li>
+               <li><a href="https://jgiamanco.github.io/resume/Docs/Giamanco_Jacob_Resume_SE.pdf" target="_blank">Resume</a></li>
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>
          </nav>
