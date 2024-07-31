@@ -98,46 +98,26 @@ let resumeData = {
       },
       {
         "key":"9",
-        "skillname":"git-plain-wordmark"
-      },
-      {
-        "key":"10",
         "skillname":"jquery-plain-wordmark"
       },
       {
-        "key":"11",
+        "key":"10",
         "skillname":"postgresql-plain-wordmark"
       },
       {
-        "key":"12",
-        "skillname":"mongodb-plain-wordmark"
-      },
-      {
-        "key":"13",
-        "skillname":"mysql-plain-wordmark"
-      },
-      {
-        "key":"14",
+        "key":"11",
         "skillname":"amazonwebservices-plain-wordmark"
       },
       {
-        "key":"15",
-        "skillname":"ssh-plain-wordmark"
-      },
-      {
-        "key":"16",
-        "skillname":"slack-plain-wordmark"
-      },
-      {
-        "key":"18",
+        "key":"12",
         "skillname":"photoshop-line"
       },
       {
-        "key":"19",
+        "key":"13",
         "skillname":"illustrator-line"
       },
       {
-        "key":"20",
+        "key":"14",
         "skillname":"wordpress-plain-wordmark"
       }
     ],
