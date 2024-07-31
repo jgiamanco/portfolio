@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://jgiamanco.github.io/",
     "name": "Jacob Giamanco",
-    "role": "Full Stack Web Developer",
+    "role": "Senior Software Engineer",
     "linkedinId":"jacob-giamanco",
     "skypeid": "Your skypeid",
     "roleDescription": " ",
@@ -25,7 +25,7 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"Since I was young I have always had a desire to learn, create, and help others. Early computer games like Math Blasters or The Oregon Trail, captivated my interest as a young child and started a love for technology. Now I aim to create websites and apps that may become an inspiration to others.",
+    "aboutme":"Valued expert with 5+ years of experience driving significant improvements in technical product management, frontend engineering, web development, and software design. Adept at prioritizing clear communication and strong cross-team collaboration. Skilled in managing and optimizing content for over 60 products, resulting in significant cost savings and improved efficiency. Experienced in implementing automation and scripts to streamline processes. Proven track record of increasing customer engagement and accessibility through innovative solutions. Respected and influential team leader with a natural ability to exceed aggressive goals.",
     "address":"San Diego, CA",
     "website":"https://jgiamanco.now.sh/",
     "education":[
