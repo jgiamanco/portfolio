@@ -74,31 +74,31 @@ let resumeData = {
       },
       {
         "key":"3",
-        "skillname":"nodejs-plain-wordmark"
+        "skillname":"typescript-plain"
       },
       {
         "key":"4",
-        "skillname":"sass-original"
+        "skillname":"nodejs-plain-wordmark"
       },
       {
         "key":"5",
-        "skillname":"css3-plain-wordmark"
+        "skillname":"sass-original"
       },
       {
         "key":"6",
-        "skillname":"html5-plain-wordmark"
+        "skillname":"css3-plain-wordmark"
       },
       {
         "key":"7",
-        "skillname":"express-original-wordmark"
+        "skillname":"html5-plain-wordmark"
       },
       {
         "key":"8",
-        "skillname":"git-plain-wordmark"
+        "skillname":"express-original-wordmark"
       },
       {
         "key":"9",
-        "skillname":"heroku-original-wordmark"
+        "skillname":"git-plain-wordmark"
       },
       {
         "key":"10",
@@ -129,10 +129,6 @@ let resumeData = {
         "skillname":"slack-plain-wordmark"
       },
       {
-        "key":"17",
-        "skillname":"trello-plain-wordmark"
-      },
-      {
         "key":"18",
         "skillname":"photoshop-line"
       },
@@ -143,10 +139,6 @@ let resumeData = {
       {
         "key":"20",
         "skillname":"wordpress-plain-wordmark"
-      },
-      {
-        "key":"21",
-        "skillname":"bootstrap-plain-wordmark"
       }
     ],
     "portfolio":[
