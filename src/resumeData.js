@@ -127,7 +127,7 @@ let resumeData = {
         "name":"Face Detection App",
         "description":"SPA",
         "imgurl":"images/facialRecogMockup.png",
-        "link": "https://facialdetection.netlify.com",
+        "link": "https://facialdetection.netlify.app",
         "git": "https://github.com/jgiamanco/face-detection-app"
       },
       {
@@ -143,7 +143,7 @@ let resumeData = {
         "name":"CRWN Clothing",
         "description":"Webapp",  
         "imgurl":"images/crwnEcommerceMockup.png",
-        "link":"https://crwnclothingco.netlify.com",
+        "link":"https://crwnclothingco.netlify.app",
         "git": "https://github.com/jgiamanco/crwn-clothing"
       },
       // {
