@@ -125,14 +125,6 @@ let resumeData = {
     "portfolio":[
       {
         "key":"1",
-        "name":"Face Detection App",
-        "description":"SPA",
-        "imgurl":"images/facialRecogMockup.png",
-        "link": "https://facialdetection.netlify.app",
-        "git": "https://github.com/jgiamanco/face-detection-app"
-      },
-      {
-        "key":"2",
         "name":"NFL Roster App",
         "description":"SPA",
         "imgurl":"images/rostersMockup.png",
@@ -140,7 +132,7 @@ let resumeData = {
         "git": "https://github.com/jgiamanco/nfl-rosters"
       },
       {
-        "key":"3",
+        "key":"2",
         "name":"CRWN Clothing",
         "description":"Webapp",  
         "imgurl":"images/crwnEcommerceMockup.png",
@@ -155,13 +147,21 @@ let resumeData = {
       //   "link":"https://cryptoclash.herokuapp.com"
       // }
       {
-        "key":"4",
+        "key":"3",
         "name":"Weather Lookup",
         "description":"SPA with location or search based API fetch",  
         "imgurl":"images/weatherMockup.png",
         "link":"https://weatherlookup.now.sh",
         "git": "https://github.com/jgiamanco/weather-2.0"
-      }
+      },
+      {
+        "key":"4",
+        "name":"Face Detection App",
+        "description":"SPA",
+        "imgurl":"images/facialRecogMockup.png",
+        "link": "https://facialdetection.netlify.app",
+        "git": "https://github.com/jgiamanco/face-detection-app"
+      },
     ]
   }
   
