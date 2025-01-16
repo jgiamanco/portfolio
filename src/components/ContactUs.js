@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import Modal from "react-modal";
 
 const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
 const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
 const emailKey = process.env.REACT_APP_EMAILJS_KEY;
+
+Modal.setAppElement("#root");
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -15,6 +18,7 @@ const ContactUs = () => {
   const [errors, setErrors] = useState({});
   const [successMessage, setSuccessMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -64,6 +68,12 @@ const ContactUs = () => {
           );
           setSuccessMessage("Email sent successfully!");
           setErrorMessage("");
+          setFormData({
+            firstName: "",
+            email: "",
+            subject: "",
+            message: "",
+          });
         },
         (error) => {
           console.error("Failed to send email:", error);
@@ -74,18 +84,47 @@ const ContactUs = () => {
     }
   };
 
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+    setSuccessMessage("");
+    setErrorMessage("");
+  };
+
   return (
     <section id="contact">
       <div className="row section-head">
         <div className="ten columns">
           <p className="lead">
-            Feel free to <a href="mailto:jacobdeansd@gmail.com">contact me</a>{" "}
+            Feel free to{" "}
+            <a href="#" onClick={openModal}>
+              contact me
+            </a>{" "}
             for any work, collaborations, or to get to know me.
           </p>
         </div>
       </div>
-      <div className="row">
-        <div className="ten columns">
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        contentLabel="Contact Form"
+        className="modal"
+        overlayClassName="overlay"
+      >
+        <button onClick={closeModal} className="close-button">
+          X
+        </button>
+        {successMessage ? (
+          <div className="success-message">
+            <p>{successMessage}</p>
+            <button onClick={closeModal} className="close-button">
+              Close
+            </button>
+          </div>
+        ) : (
           <form id="contactForm" onSubmit={handleSubmit}>
             <div className="form-group">
               <label htmlFor="firstName">
@@ -153,11 +192,10 @@ const ContactUs = () => {
                 Send
               </button>
             </div>
-            {successMessage && <p className="success">{successMessage}</p>}
             {errorMessage && <p className="error">{errorMessage}</p>}
           </form>
-        </div>
-      </div>
+        )}
+      </Modal>
     </section>
   );
 };
