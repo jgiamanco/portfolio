@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import emailjs from "emailjs-com";
 import Modal from "react-modal";
 
@@ -19,6 +19,15 @@ const ContactUs = () => {
   const [successMessage, setSuccessMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  useEffect(() => {
+    const rootElement = document.getElementById("root");
+    if (modalIsOpen) {
+      rootElement.setAttribute("inert", "true");
+    } else {
+      rootElement.removeAttribute("inert");
+    }
+  }, [modalIsOpen]);
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
