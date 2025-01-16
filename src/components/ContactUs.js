@@ -6,17 +6,6 @@ const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
 const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
 const emailKey = process.env.REACT_APP_EMAILJS_KEY;
 
-const customStyles = {
-  content: {
-    top: "50%",
-    left: "50%",
-    right: "auto",
-    bottom: "auto",
-    marginRight: "-50%",
-    transform: "translate(-50%, -50%)",
-  },
-};
-
 Modal.setAppElement("#root");
 
 const ContactUs = () => {
@@ -130,7 +119,6 @@ const ContactUs = () => {
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
-        style={customStyles}
         contentLabel="Contact Form"
         className="modal"
         overlayClassName="overlay"
@@ -208,7 +196,7 @@ const ContactUs = () => {
                 <span className="error">{errors.message}</span>
               )}
             </div>
-            <div>
+            <div className="form-button">
               <button type="submit" className="submit">
                 Send
               </button>

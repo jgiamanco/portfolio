@@ -94,3 +94,15 @@ form input[type="submit"]:hover {
 .contact-button:hover {
   color: #005a08;
 }
+
+.form-group {
+  margin: auto;
+}
+
+.form-group input {
+  width: 70vw;
+}
+
+.form-button {
+  margin: auto;
+}
