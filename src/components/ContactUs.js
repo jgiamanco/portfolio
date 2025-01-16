@@ -87,7 +87,7 @@ const ContactUs = () => {
       <div className="row">
         <div className="ten columns">
           <form id="contactForm" onSubmit={handleSubmit}>
-            <div>
+            <div className="form-group">
               <label htmlFor="firstName">
                 First Name <span className="required">*</span>
               </label>
@@ -97,12 +97,13 @@ const ContactUs = () => {
                 name="firstName"
                 value={formData.firstName}
                 onChange={handleChange}
+                className="form-control"
               />
               {errors.firstName && (
                 <span className="error">{errors.firstName}</span>
               )}
             </div>
-            <div>
+            <div className="form-group">
               <label htmlFor="email">
                 Email <span className="required">*</span>
               </label>
@@ -112,10 +113,11 @@ const ContactUs = () => {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
+                className="form-control"
               />
               {errors.email && <span className="error">{errors.email}</span>}
             </div>
-            <div>
+            <div className="form-group">
               <label htmlFor="subject">
                 Subject <span className="required">*</span>
               </label>
@@ -125,12 +127,13 @@ const ContactUs = () => {
                 name="subject"
                 value={formData.subject}
                 onChange={handleChange}
+                className="form-control"
               />
               {errors.subject && (
                 <span className="error">{errors.subject}</span>
               )}
             </div>
-            <div>
+            <div className="form-group">
               <label htmlFor="message">
                 Message <span className="required">*</span>
               </label>
@@ -139,6 +142,7 @@ const ContactUs = () => {
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
+                className="form-control"
               ></textarea>
               {errors.message && (
                 <span className="error">{errors.message}</span>
