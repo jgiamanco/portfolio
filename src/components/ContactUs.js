@@ -100,9 +100,9 @@ const ContactUs = () => {
         <div className="ten columns">
           <p className="lead">
             Feel free to{" "}
-            <a href="#" onClick={openModal}>
+            <button onClick={openModal} className="contact-button">
               contact me
-            </a>{" "}
+            </button>{" "}
             for any work, collaborations, or to get to know me.
           </p>
         </div>

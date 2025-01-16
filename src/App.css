@@ -84,3 +84,17 @@
   color: green;
   font-size: 14px;
 }
+
+.contact-button {
+  background: none;
+  border: none;
+  color: #007e0b;
+  cursor: pointer;
+  font-size: inherit;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.contact-button:hover {
+  color: #005a08;
+}
