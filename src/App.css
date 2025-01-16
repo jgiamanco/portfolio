@@ -111,5 +111,5 @@ form input[type="submit"]:hover {
 }
 
 .form-button button.submit {
-  color: var(--primary-color);
+  background-color: var(--primary-color);
 }
