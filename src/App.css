@@ -17,9 +17,12 @@
   background: #fff;
   padding: 20px;
   border-radius: 10px;
-  width: 400px;
+  width: 80%; /* Adjust this to take up more/less of the viewport */
+  height: 80%; /* Adjust this to take up more/less of the viewport */
   max-width: 90%;
+  max-height: 90%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow-y: auto; /* Ensure content is scrollable if it overflows */
 }
 
 /* Form Styles */
