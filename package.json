@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://jgiamanco.netlify.com",
   "dependencies": {
+    "emailjs-com": "^3.2.0",
     "gh-pages": "^5.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
