@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
-const serviceId = process.env.EMAILJS_SERVICE_ID;
-const templateId = process.env.EMAILJS_TEMPLATE_ID;
-const emailKey = process.env.EMAILJS_KEY;
+const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+const emailKey = process.env.REACT_APP_EMAILJS_KEY;
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -13,6 +13,8 @@ const ContactUs = () => {
     message: "",
   });
   const [errors, setErrors] = useState({});
+  const [successMessage, setSuccessMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -53,20 +55,22 @@ const ContactUs = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-      emailjs
-        .send(serviceId, templateId, formData, { pubicKey: emailKey })
-        .then(
-          (response) => {
-            console.log(
-              "Email sent successfully:",
-              response.status,
-              response.text
-            );
-          },
-          (error) => {
-            console.error("Failed to send email:", error);
-          }
-        );
+      emailjs.send(serviceId, templateId, formData, emailKey).then(
+        (response) => {
+          console.log(
+            "Email sent successfully:",
+            response.status,
+            response.text
+          );
+          setSuccessMessage("Email sent successfully!");
+          setErrorMessage("");
+        },
+        (error) => {
+          console.error("Failed to send email:", error);
+          setErrorMessage("Failed to send email. Please try again later.");
+          setSuccessMessage("");
+        }
+      );
     }
   };
 
@@ -145,6 +149,8 @@ const ContactUs = () => {
                 Send
               </button>
             </div>
+            {successMessage && <p className="success">{successMessage}</p>}
+            {errorMessage && <p className="error">{errorMessage}</p>}
           </form>
         </div>
       </div>
