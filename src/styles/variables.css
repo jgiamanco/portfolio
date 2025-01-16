@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #007e0b;
+  --secondary-color: #005a08;
+  --error-color: red;
+  --success-color: green;
+  --background-color: #f9f9f9;
+  --text-color: #333;
+  --font-family: "Open Sans", sans-serif;
+  --font-size-base: 16px;
+  --font-size-large: 18px;
+  --font-size-small: 14px;
+  --border-radius: 4px;
+  --transition-duration: 0.3s;
+}
