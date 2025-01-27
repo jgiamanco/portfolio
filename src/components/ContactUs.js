@@ -98,7 +98,13 @@ const ContactUs = ({ modalIsOpen, closeModal, openModal }) => {
         <div className="ten columns">
           <p className="lead">
             Feel free to{" "}
-            <button onClick={openModal} className="contact-button">
+            <button
+              onClick={(e) => {
+                e.preventDefault();
+                openModal();
+              }}
+              className="contact-button"
+            >
               contact me
             </button>{" "}
             for any work, collaborations, or to get to know me.
