@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
+import Testimonials from "./components/Testimonials";
 import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
 import resumeData from "./resumeData";
@@ -23,6 +24,7 @@ const App = () => {
     <div className="App">
       <Header resumeData={resumeData} openModal={openModal} />
       <Portfolio resumeData={resumeData} />
+      <Testimonials resumeData={resumeData} />
       <Skills resumeData={resumeData} />
       <About resumeData={resumeData} />
       <ContactUs

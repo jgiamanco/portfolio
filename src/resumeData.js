@@ -163,6 +163,38 @@ let resumeData = {
       git: "https://github.com/jgiamanco/face-detection-app",
     },
   ],
+  testimonials: [
+    {
+      description:
+        "I had the pleasure of working with Jacob in our operations team, and I cannot recommend him highly enough. His contributions to various projects have been invaluable to our team’s success. Jacob demonstrated exceptional skill in managing content transfers via Figma plugins, ensuring that our design-to-development handoff was seamless and efficient. His expertise in content deployment and adept use of content management tools significantly improved our workflow, saving us time and reducing errors. One of Jacob’s standout qualities is his proactive approach. He consistently anticipates potential issues and addresses them before they become problems, which has been crucial in maintaining smooth project execution. Additionally, his collaborative spirit and positive attitude make him a joy to work with. His dedication, technical proficiency, and ability to manage complex operations are truly commendable.",
+      name: "Aditya S.",
+    },
+    {
+      description:
+        "An all-star, well-rounded front-end developer! I’ve worked closely with Jacob for the past year, as his localization partner for many a project and he’s always been extremely helpful when I had technical questions (even guiding me through steps on how to create a build for testing), quick to respond and act on things that needed doing, and responsible when it came to helping folks, including our localization team. Jacob was a joy to work with but also a very capable and dependable colleague. I highly recommend him!",
+      name: "Lihn N.",
+    },
+    {
+      description:
+        "When I moved to the Content Operation team as a Technical Product Manager, Jacob led content management and engineering in decoupled repos. He managed singlehandedly content for those repos growing counts week by week. Jacob's main responsibility was to handle content intake to release and advocate the best practices as a gatekeeper before sending it to Localization. We had great conversations around the \"best practices\", which were sometimes vague or not straightforward. He was also a Go-To guy whom I could ask questions about his main responsibility and even beyond since he had versatile knowledge and a willingness to help others. He was also a critical member of the Global Content Initiative workgroup. This initiative was one of the most important and challenging ones we had ever tackled. He represented the Content Operation team to provide deep insight about what we were facing day-to-day and how we interacted with many product teams. Last but not least, he is a really nice guy and it's a pleasure to work with him.",
+      name: "Kaori E.",
+    },
+    {
+      description:
+        "I am pleased to recommend Jacob for any role requiring management and cross-team collaboration. Jacob did a great job as our content manager and liaison with the product team, consistently demonstrating clear communication and a proactive approach to doing things. \n Jacob’s ability to convey issues clearly was invaluable. Jacob is dedicated, skilled, and a pleasure to work with. I highly recommend him for any future endeavors.",
+      name: "Pooja Y.",
+    },
+    {
+      description:
+        "I had the pleasure of working with Jacob on PayPal's World Ready team, where he maintained and improved some of the largest content repositories at the company. In addition to being an experienced React developer, Jacob's attention to detail significantly improved our development process and best practices. Beyond his technical skills, Jacob is a friendly and excellent team player, always ready to lend a hand and share his knowledge. I highly recommend Jacob for any role that requires both technical expertise and a collaborative spirit. He is an outstanding worker and teammate.",
+      name: "Sean R.",
+    },
+    {
+      description:
+        "Whether writing great React code, implementing new content solutions for multiple product teams, or training vendors to use complex technical processes, Jacob’s attention to detail and easygoing manner helped him produce above average results and provide exceptional value for the company. Having worked with Jacob on PayPal's World Ready team, I can attest that Jacob’s a great teammate, always ready to jump in, figure it out, and get it done right. He’ll be a great addition to any team.",
+      name: "Josh O.",
+    },
+  ],
 };
 
 export default resumeData;

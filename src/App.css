@@ -113,3 +113,31 @@ form input[type="submit"]:hover {
 .form-button button.submit {
   background-color: var(--primary-color);
 }
+
+/* Testimonials Section */
+#testimonials {
+  background: #f9f9f9;
+  padding: 50px 0;
+}
+
+#testimonials .text-container {
+  text-align: center;
+}
+
+#testimonials h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#testimonials blockquote {
+  font-size: 18px;
+  color: #333;
+  margin: 20px 0;
+}
+
+#testimonials cite {
+  display: block;
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
