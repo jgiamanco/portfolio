@@ -14,11 +14,6 @@ const Testimonials = ({ resumeData }) => {
     <section id="testimonials">
       <div className="text-container">
         <div className="row">
-          <div className="two columns header-col">
-            <h1>
-              <span>Recommendation Letters</span>
-            </h1>
-          </div>
           <div className="ten columns flex-container">
             <AliceCarousel
               duration={400}
