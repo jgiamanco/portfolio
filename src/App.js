@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./components/Header";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
@@ -9,13 +9,27 @@ import Skills from "./components/skills";
 import "./App.css";
 
 const App = () => {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const openModal = () => {
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
+
   return (
     <div className="App">
-      <Header resumeData={resumeData} />
+      <Header resumeData={resumeData} openModal={openModal} />
       <Portfolio resumeData={resumeData} />
       <Skills resumeData={resumeData} />
       <About resumeData={resumeData} />
-      <ContactUs resumeData={resumeData} />
+      <ContactUs
+        resumeData={resumeData}
+        modalIsOpen={modalIsOpen}
+        closeModal={closeModal}
+      />
       <Footer resumeData={resumeData} />
     </div>
   );

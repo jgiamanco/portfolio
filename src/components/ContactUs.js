@@ -8,7 +8,7 @@ const emailKey = process.env.REACT_APP_EMAILJS_KEY;
 
 Modal.setAppElement("#root");
 
-const ContactUs = () => {
+const ContactUs = ({ modalIsOpen, closeModal, openModal }) => {
   const [formData, setFormData] = useState({
     firstName: "",
     email: "",
@@ -18,7 +18,6 @@ const ContactUs = () => {
   const [errors, setErrors] = useState({});
   const [successMessage, setSuccessMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
-  const [modalIsOpen, setModalIsOpen] = useState(false);
 
   useEffect(() => {
     const rootElement = document.getElementById("root");
@@ -91,16 +90,6 @@ const ContactUs = () => {
         }
       );
     }
-  };
-
-  const openModal = () => {
-    setModalIsOpen(true);
-  };
-
-  const closeModal = () => {
-    setModalIsOpen(false);
-    setSuccessMessage("");
-    setErrorMessage("");
   };
 
   return (

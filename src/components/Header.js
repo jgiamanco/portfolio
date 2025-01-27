@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = ({ resumeData }) => {
+const Header = ({ resumeData, openModal }) => {
   return (
     <React.Fragment>
       <header id="home">
@@ -37,12 +37,23 @@ const Header = ({ resumeData }) => {
               </a>
             </li>
             <li>
-              <a href={resumeData.resume} target="_blank">
+              <a
+                href={resumeData.resume}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Resume
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="#contact">
+              <a
+                className="smoothscroll"
+                href="#contact"
+                onClick={(e) => {
+                  e.preventDefault();
+                  openModal();
+                }}
+              >
                 Contact
               </a>
             </li>
