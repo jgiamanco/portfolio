@@ -1,7 +1,7 @@
 let resumeData = {
   imagebaseurl: "https://jgiamanco.github.io/",
   resume:
-    "https://jgiamanco.github.io/resume/Docs/senior-software-engineer-Jacob-Giamanco.pdf",
+    "https://jgiamanco.github.io/resume/Docs/software-engineer-resume-jacob-giamanco.pdf",
   name: "Jacob Giamanco",
   role: "Senior Software Engineer",
   linkedinId: "jacob-giamanco",
