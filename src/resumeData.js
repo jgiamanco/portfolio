@@ -20,12 +20,6 @@ let resumeData = {
       url: "https://github.com/jgiamanco",
       className: "fa fa-github",
     },
-    {
-      key: "3",
-      name: "Twitter",
-      url: "https://twitter.com/GiamancoJ",
-      className: "fa fa-twitter",
-    },
   ],
   aboutme:
     "Valued expert with 5+ years of experience driving significant improvements in technical product management, frontend engineering, web development, and software design. Adept at prioritizing clear communication and strong cross-team collaboration. Skilled in managing and optimizing content for over 60 products, resulting in significant cost savings and improved efficiency. Experienced in implementing automation and scripts to streamline processes. Proven track record of increasing customer engagement and accessibility through innovative solutions. Respected and influential team leader with a natural ability to exceed aggressive goals.",
