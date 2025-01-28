@@ -13,11 +13,11 @@ const Skills = ({ resumeData }) => {
           <p>{resumeData.skillsDescription}</p>
           <ul className="skills">
             {resumeData.skills &&
-              resumeData.skills.map((index, item) => {
+              resumeData.skills.map((item) => {
                 return (
-                  <div key={index} className="skill-flex">
+                  <div key={item.key} className="skill-flex">
                     <i
-                      key={index}
+                      key={item.key}
                       className={`devicon-${item.skillname.toLowerCase()} colored large`}
                     ></i>
                   </div>
