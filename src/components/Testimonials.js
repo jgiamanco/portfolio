@@ -16,7 +16,7 @@ const Testimonials = ({ resumeData }) => {
         <div className="row">
           <div className="twelve columns flex-container">
             <AliceCarousel
-              duration={800}
+              duration={1000}
               autoPlay
               autoHeight
               inifinite
