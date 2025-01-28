@@ -18,7 +18,6 @@ const Testimonials = ({ resumeData }) => {
             <AliceCarousel
               duration={1000}
               autoPlay
-              autoHeight
               inifinite
               startIndex={1}
               buttonsDisabled
