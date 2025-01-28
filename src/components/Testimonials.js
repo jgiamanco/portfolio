@@ -6,17 +6,17 @@ import "../carousel.css";
 const Testimonials = ({ resumeData }) => {
   const responsive = {
     0: { items: 1 },
-    600: { items: 1 },
-    1024: { items: 1 },
+    600: { items: 2 },
+    1024: { items: 3 },
   };
 
   return (
     <section id="testimonials">
       <div className="text-container">
         <div className="row">
-          <div className="ten columns flex-container">
+          <div className="twelve columns flex-container">
             <AliceCarousel
-              duration={400}
+              duration={800}
               autoPlay
               startIndex={1}
               buttonsDisabled
