@@ -27,6 +27,11 @@ const Header = ({ resumeData, openModal }) => {
               </a>
             </li>
             <li>
+              <a className="smoothscroll" href="#testimonials">
+                Testimonials
+              </a>
+            </li>
+            <li>
               <a className="smoothscroll" href="#skills">
                 Skills
               </a>
