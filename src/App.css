@@ -127,10 +127,9 @@ form input[type="submit"]:hover {
   padding: 30px;
   background: #fff;
   max-width: 600px;
-  width: 85vw;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
+  margin: 0 20px;
 }
 
 .testimonial-item blockquote {

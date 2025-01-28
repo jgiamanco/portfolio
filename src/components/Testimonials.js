@@ -18,6 +18,7 @@ const Testimonials = ({ resumeData }) => {
             <AliceCarousel
               duration={800}
               autoPlay
+              autoHeight
               startIndex={1}
               buttonsDisabled
               fadeOutAnimation
