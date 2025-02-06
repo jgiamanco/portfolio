@@ -110,7 +110,7 @@ form input[type="submit"]:hover {
 }
 
 .form-group textarea {
-  max-height: 150px;
+  min-height: 150px;
 }
 
 .form-button {
