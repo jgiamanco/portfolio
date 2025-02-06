@@ -95,14 +95,12 @@ const ContactUs = ({ modalIsOpen, closeModal, openModal }) => {
   return (
     <section id="contact">
       <button
-        className="contact-button"
+        className="contact-button fa fa-regular fa-envelope"
         onClick={(e) => {
           e.preventDefault();
           openModal();
         }}
-      >
-        Contact Me
-      </button>
+      ></button>
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}

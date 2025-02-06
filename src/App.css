@@ -89,7 +89,6 @@ form input[type="submit"]:hover {
   color: var(--primary-color);
   cursor: pointer;
   font-size: inherit;
-  text-decoration: underline;
   padding: 0;
 }
 
