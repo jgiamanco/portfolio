@@ -94,23 +94,14 @@ const ContactUs = ({ modalIsOpen, closeModal, openModal }) => {
 
   return (
     <section id="contact">
-      <div className="row section-head">
-        <div className="ten columns">
-          <p className="lead">
-            Feel free to{" "}
-            <button
-              onClick={(e) => {
-                e.preventDefault();
-                openModal();
-              }}
-              className="contact-button"
-            >
-              contact me
-            </button>{" "}
-            for any work, collaborations, or to get to know me.
-          </p>
-        </div>
-      </div>
+      <button
+        onClick={(e) => {
+          e.preventDefault();
+          openModal();
+        }}
+      >
+        Contact Me
+      </button>
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}

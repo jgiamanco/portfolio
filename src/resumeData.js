@@ -3,10 +3,8 @@ let resumeData = {
   resume:
     "https://jgiamanco.github.io/resume/Docs/jacob_giamanco_resume_2025.pdf",
   name: "Jacob Giamanco",
-  role: "Senior Software Engineer",
+  role: "Software Engineer",
   linkedinId: "jacob-giamanco",
-  skypeid: "Your skypeid",
-  roleDescription: " ",
   socialLinks: [
     {
       key: "1",
@@ -24,7 +22,7 @@ let resumeData = {
   aboutme:
     "Valued expert with 5+ years of experience driving significant improvements in technical product management, frontend engineering, web development, and software design. Adept at prioritizing clear communication and strong cross-team collaboration. Skilled in managing and optimizing content for over 60 products, resulting in significant cost savings and improved efficiency. Experienced in implementing automation and scripts to streamline processes. Proven track record of increasing customer engagement and accessibility through innovative solutions. Respected and influential team leader with a natural ability to exceed aggressive goals.",
   address: "San Diego, CA",
-  website: "https://jgiamanco.now.sh/",
+  website: "https://jgiamanco.vercel.app",
   education: [
     {
       UniversityName: "Grossmont College",

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Header = ({ resumeData, openModal }) => {
+const Header = ({ resumeData }) => {
   return (
     <React.Fragment>
       <header id="home">
@@ -49,16 +49,6 @@ const Header = ({ resumeData, openModal }) => {
               >
                 Resume
               </a>
-            </li>
-            <li>
-              <button
-                onClick={(e) => {
-                  e.preventDefault();
-                  openModal();
-                }}
-              >
-                Contact
-              </button>
             </li>
           </ul>
         </nav>
