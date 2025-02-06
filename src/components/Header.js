@@ -51,16 +51,14 @@ const Header = ({ resumeData, openModal }) => {
               </a>
             </li>
             <li>
-              <a
-                className="smoothscroll"
-                href="#contact"
+              <button
                 onClick={(e) => {
                   e.preventDefault();
                   openModal();
                 }}
               >
                 Contact
-              </a>
+              </button>
             </li>
           </ul>
         </nav>

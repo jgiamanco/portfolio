@@ -27,11 +27,7 @@ const App = () => {
       <Testimonials resumeData={resumeData} />
       <Skills resumeData={resumeData} />
       <About resumeData={resumeData} />
-      <ContactUs
-        resumeData={resumeData}
-        modalIsOpen={modalIsOpen}
-        closeModal={closeModal}
-      />
+      <ContactUs modalIsOpen={modalIsOpen} closeModal={closeModal} />
       <Footer resumeData={resumeData} />
     </div>
   );

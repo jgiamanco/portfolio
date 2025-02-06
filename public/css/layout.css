@@ -330,6 +330,30 @@ ul#nav li.current a {
   color: rgb(0, 126, 11);
 }
 
+ul#nav li button {
+  /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+
+  display: inline-block;
+  padding: 8px 13px;
+  line-height: 32px;
+  text-decoration: none;
+  text-align: left;
+  color: #fff;
+
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+ul#nav li button:active {
+  background-color: transparent !important;
+}
+ul#nav li.current button {
+  color: rgb(0, 126, 11);
+}
+
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
@@ -472,7 +496,7 @@ ul.skills {
 }
 
 .skill-flex {
-  padding: 5px 5px;
+  padding: 16px 16px;
 }
 
 /* ------------------------------------------------------------------ */
@@ -865,7 +889,6 @@ call-to-action .button {
   margin: 0 6px;
   display: inline-block;
   zoom: 1;
-  *display: inline;
 }
 .flex-control-paging li a {
   width: 12px;
