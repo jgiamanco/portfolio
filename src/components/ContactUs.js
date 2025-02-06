@@ -95,6 +95,7 @@ const ContactUs = ({ modalIsOpen, closeModal, openModal }) => {
   return (
     <section id="contact">
       <button
+        className="contact-button"
         onClick={(e) => {
           e.preventDefault();
           openModal();
