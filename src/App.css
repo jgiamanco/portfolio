@@ -109,6 +109,10 @@ form input[type="submit"]:hover {
   border-radius: var(--border-radius);
 }
 
+.form-group textarea {
+  max-height: 150px;
+}
+
 .form-button {
   margin: auto;
 }
