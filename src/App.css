@@ -22,7 +22,7 @@
   width: 80%;
   height: 80%;
   max-width: 650px;
-  max-height: 650px;
+  max-height: 620px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   overflow-y: auto;
 }
@@ -114,11 +114,13 @@ form input[type="submit"]:hover {
 }
 
 .form-button {
-  margin: auto;
+  margin: 5px auto;
 }
 
 .form-button button.submit {
   background-color: var(--primary-color);
+  margin-bottom: 0;
+  padding: 3px 20px;
 }
 
 /* Testimonials Section */
