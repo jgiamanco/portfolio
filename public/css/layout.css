@@ -939,10 +939,11 @@ call-to-action .button {
 
 #contact button.contact-button {
   position: fixed;
-  height: 50px;
-  width: 50px;
-  bottom: 15px;
-  right: 15px;
+  height: 5rem;
+  width: 5rem;
+  font-size: 28px;
+  bottom: 1rem;
+  right: 3rem;
   border-radius: 50%;
 }
 
