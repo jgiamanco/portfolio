@@ -100,9 +100,7 @@ const ContactUs = ({ modalIsOpen, closeModal, openModal }) => {
           e.preventDefault();
           openModal();
         }}
-      >
-        i
-      </button>
+      ></button>
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
