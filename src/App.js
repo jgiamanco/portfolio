@@ -22,12 +22,16 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header resumeData={resumeData} openModal={openModal} />
+      <Header resumeData={resumeData} />
       <Portfolio resumeData={resumeData} />
       <Testimonials resumeData={resumeData} />
       <Skills resumeData={resumeData} />
       <About resumeData={resumeData} />
-      <ContactUs modalIsOpen={modalIsOpen} closeModal={closeModal} />
+      <ContactUs
+        modalIsOpen={modalIsOpen}
+        openModal={openModal}
+        closeModal={closeModal}
+      />
       <Footer resumeData={resumeData} />
     </div>
   );
